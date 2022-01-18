@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "immutabilis", "src\immutabilis\immutabilis.csproj", "{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F79C78F-0AF6-45F6-AD49-96DFCE3F828E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD244058-28CB-4AE1-B8EC-B4864394D934}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AF047F14-3384-447E-BDED-54189ED38939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "immutabilis.TEST", "test\immutabilis.TEST\immutabilis.TEST.csproj", "{4B310E4A-A46E-400E-A942-BEA4127EEC20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{8259D04A-7150-4243-970C-51C16F2545F5}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "build", "build\build.shproj", "{0A50185B-09AA-4107-B20B-ABCC65031F5E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "workflows", ".github\workflows\workflows.shproj", "{AEC986F0-2DB0-4AA4-9303-35EA567E25A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C8E9C2C6-5099-4031-A1EE-2A1ABD874745}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		build\build.projitems*{0a50185b-09aa-4107-b20b-abcc65031f5e}*SharedItemsImports = 13
+		.github\workflows\workflows.projitems*{aec986f0-2db0-4aa4-9303-35ea567e25a5}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B310E4A-A46E-400E-A942-BEA4127EEC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B310E4A-A46E-400E-A942-BEA4127EEC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B310E4A-A46E-400E-A942-BEA4127EEC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B310E4A-A46E-400E-A942-BEA4127EEC20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D13DF5EB-5AD2-46FE-A4AA-AF48D8FB684C} = {AD244058-28CB-4AE1-B8EC-B4864394D934}
+		{4B310E4A-A46E-400E-A942-BEA4127EEC20} = {AF047F14-3384-447E-BDED-54189ED38939}
+		{AEC986F0-2DB0-4AA4-9303-35EA567E25A5} = {C8E9C2C6-5099-4031-A1EE-2A1ABD874745}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F62825B1-E764-45E8-9E9B-3C91142FEC79}
+	EndGlobalSection
+EndGlobal
