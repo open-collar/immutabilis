@@ -37,9 +37,10 @@ jobs:
 
     - name: Build
       run: |
+        dotnet tool restore
         dotnet cake "./build/build.cake" --target="Release" --configuration="Release" --isDesktop=false --buildNumber="${{steps.buildnumber.outputs.build_number}}"
 
     - uses: actions/upload-artifact@v2
       with:
-        name: "server-binaries"
+        name: "command-line"
         path: ./artifacts/**/*
