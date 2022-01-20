@@ -1,7 +1,20 @@
 # immutabilis
-.NET assembly versioning validation
+.NET assembly version compatibility validation.
 
-# Tools
+## Purpose
+
+This tool is intended for use in build/deployment processes to validate that a candidate
+assembly has not broken compatibility with a baseline version.  It can also detect,
+classify and report upon any breaking changes or risks that are discovered.
+
+And extensibility model allows for customisation of the detection, classification
+and reporting processes to meet individual needs.
+
+# Usage
+
+`immutabilis [flags] <baseline-assembly-path> <candidate-assembly-path> <results-file-path>`
+
+# Developers
 
 Below are the tools that are required or recommend for developing immutablilis.
 
@@ -21,3 +34,10 @@ environment.
    * Cake for Visual Studio 2022;
    * [Ghostdoc Community for Visual Studio 2017 and Later](https://submain.com/download/ghostdoc/community/)
    * Markdown Editor (64-bit);
+
+# Background Reading
+
+* [Semantic Versioning 2.0.0](https://semver.org/)
+* Command Line Parser (used to parse command lines and generate documentation etc.):
+  * [GitHub](https://github.com/commandlineparser/commandline)
+  * [Nuget](https://www.nuget.org/packages/CommandLineParser/)
