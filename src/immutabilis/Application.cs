@@ -9,7 +9,7 @@ namespace immutabilis
     /// <summary>
     /// The class implementing the core functionality of the application.
     /// </summary>
-    internal class Application
+    internal class Application : IApplication
     {
 
         /// The console writer that will be used to write output.
@@ -19,7 +19,7 @@ namespace immutabilis
         /// Creates a new instance of the <see cref="Application"/> class.
         /// </summary>
         /// <param name="consoleWriter">The console writer that will be used to write output.</param>
-        internal Application(IConsoleWriter consoleWriter)
+        public Application(IConsoleWriter consoleWriter)
         {
             _consoleWriter = consoleWriter;
         }
