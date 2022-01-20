@@ -16,15 +16,26 @@ and reporting processes to meet individual needs.
 
 # Developers
 
+## Source Code
+[GitHub Repository](https://github.com/open-collar/immutabilis)
+
+## Build
+[![Build](https://github.com/open-collar/immutabilis/actions/workflows/build.yml/badge.svg)](https://github.com/open-collar/immutabilis/actions/workflows/build.yml)
+
+## Issues
+[Issues](https://github.com/open-collar/immutabilis/issues)
+
+## Tools
+
 Below are the tools that are required or recommend for developing immutablilis.
 
-## Required Tools
+### Required Tools
 
 These tools are require to build the immutablilis tools.
 
 * [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (this SDK will also be installed as part of a Visual Studio installation);
 
-## Recommended Tools
+### Recommended Tools
 
 These tools are not strictly required, but have been proven to work as a development
 environment.
