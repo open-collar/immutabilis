@@ -37,7 +37,6 @@ jobs:
 
     - name: Build
       run: |
-        dotnet tool install Cake.Tool --version 2.0.0-rc0001
         dotnet cake "./build/build.cake" --target="Release" --configuration="Release" --isDesktop=false --buildNumber="${{steps.buildnumber.outputs.build_number}}"
 
     - uses: actions/upload-artifact@v2
