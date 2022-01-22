@@ -17,13 +17,17 @@ and reporting processes to meet individual needs.
 # Developers
 
 ## Source Code
-[GitHub Repository](https://github.com/open-collar/immutabilis)
+[GitHub Repository](https://github.com/open-collar/immutabilis) (pull requests by invitation only)
 
 ## Build
 [![Build](https://github.com/open-collar/immutabilis/actions/workflows/build.yml/badge.svg)](https://github.com/open-collar/immutabilis/actions/workflows/build.yml)
 
 ## Issues
-[Issues](https://github.com/open-collar/immutabilis/issues)
+[Issues](https://github.com/open-collar/immutabilis/issues) (by invitation only)
+
+## Slack
+
+[#immutablilis](https://open-collar.slack.com/archives/C030ARN3G8Y) (by invitation only)
 
 ## Tools
 
