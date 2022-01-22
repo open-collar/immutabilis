@@ -20,7 +20,10 @@ and reporting processes to meet individual needs.
 [GitHub Repository](https://github.com/open-collar/immutabilis) (pull requests by invitation only)
 
 ## Build
-[![Build](https://github.com/open-collar/immutabilis/actions/workflows/build.yml/badge.svg)](https://github.com/open-collar/immutabilis/actions/workflows/build.yml)
+| Build | Status |
+|-------|--------|
+| Build | [![Build](https://github.com/open-collar/immutabilis/actions/workflows/release.yml/badge.svg)](https://github.com/open-collar/immutabilis/actions/workflows/release.yml) |
+| CodeQL | [![CodeQL](https://github.com/open-collar/immutabilis/actions/workflows/codeql.yml/badge.svg)](https://github.com/open-collar/immutabilis/actions/workflows/codeql.yml) |
 
 ## Issues
 [Issues](https://github.com/open-collar/immutabilis/issues) (by invitation only)

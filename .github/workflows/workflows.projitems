@@ -9,6 +9,7 @@
     <Import_RootNamespace>workflows</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)build.yml" />
+    <None Include="$(MSBuildThisFileDirectory)release.yml" />
+    <None Include="$(MSBuildThisFileDirectory)codeql.yml" />
   </ItemGroup>
 </Project>
